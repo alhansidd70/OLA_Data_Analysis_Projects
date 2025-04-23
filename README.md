@@ -1,5 +1,5 @@
 # OLA Ride Bookings – Data Analysis Project
-![OLA Logo]{https://github.com/alhansidd70/OLA_Data_Analysis_Projects/blob/main/Ola%20logo.png}
+![OLA Logo] (https://github.com/alhansidd70/OLA_Data_Analysis_Projects/blob/main/Ola%20logo.png)
 
 
 
@@ -32,9 +32,11 @@ CREATE DATABASE Ola;
 USE Ola;
 
 -- 1. Successful Bookings
+'''
 CREATE VIEW Successful_Bookings AS
 SELECT * FROM bookings
 WHERE Booking_Status = 'Success';
+'''
 
 -- 2. Average Ride Distance per Vehicle Type
 CREATE VIEW ride_distance_for_each_vehicle AS
