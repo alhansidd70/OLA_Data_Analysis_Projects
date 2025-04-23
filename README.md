@@ -112,3 +112,6 @@ FROM bookings
 WHERE Incomplete_Rides = 'Yes';`
 ```
 
+# Author
+**Alhan Siddiqui**  
+Data Analyst | SQL & Power BI Enthusiast
